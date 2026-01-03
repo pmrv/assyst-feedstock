@@ -37,6 +37,7 @@ test:
   source_files:
     - tests
   commands:
+    - pip install .[test]
     - pip check
     - python -m unittest discover tests
   requires:
